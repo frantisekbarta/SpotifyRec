@@ -27,9 +27,9 @@ namespace SpotifyRec
             remove { CommandManager.RequerySuggested -= value; }
         }
 
-        public bool CanExecute(object parametr)
+        public bool CanExecute(object parameter)
         {
-            return canExecute == null ? true : canExecute(parametr);
+            return canExecute == null ? true : canExecute(parameter);
         }
 
         public void Execute(object parameter)
