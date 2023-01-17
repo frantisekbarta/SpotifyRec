@@ -1,5 +1,5 @@
 # SpotifyRec
-SpotifyRec is a WPF application that retrieves selected data from the Spotify Web API via the SpotifyAPI Web wrapper by Jonas Dellinger. It focuses on artists – after searching an artist by name you can:
+Spotify Rec is a WPF application that retrieves selected data from the Spotify Web API via the SpotifyAPI Web wrapper by Jonas Dellinger. It focuses on artists – after searching an artist by name you can:
 
 - see related artists (also shown under "Fans also like" in the Spotify app)
 - get other artist recommendations (based on Spotify Web API Get recommendations function)
